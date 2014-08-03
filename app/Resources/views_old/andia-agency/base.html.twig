@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+
+
+        <!-- Bootstrap  CSS -->
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet" />
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- custom CSS  -->
+        <link rel="stylesheet" type="text/css" href="{{ asset('bundles/wscoraltec/css/style.css') }} "/>
+
+
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+
+        <!-- TEMPLATE Starts -->
+        {{ include('::template/head.html.twig') }}
+        <!-- TEMPLATE Ends -->
+
+        {% block stylesheets %}{% endblock %}
+    </head>
+
+    <body>
+        <!-- Header -->
+        {{ include('::template/header.html.twig') }}
+        <!-- Header -->
+
+        <!-- Slider -->
+        {{ include('::template/slider.html.twig') }}
+        <!-- Slider -->
+
+        <!-- Site Description -->
+        {{ include('::template/siteDesc.html.twig') }}
+        <!-- Site Description -->
+
+        <!-- Services -->
+        {{ include('::template/template/service.html.twig') }}
+        <!-- Services -->
+
+        <!-- Testimonials -->
+        {{ include('::template/testimonial.html.twig') }}
+        <!-- Testimonials -->
+
+        <!-- Footer -->
+        {{ include('::template/footer.html.twig') }}
+        <!-- Footer -->
+
+        <!-- TEMPLATE Javascript -->
+       {{ include('::template/js.html.twig') }}
+        <!-- Javascript -->
+    </body>
+
+</html>
+

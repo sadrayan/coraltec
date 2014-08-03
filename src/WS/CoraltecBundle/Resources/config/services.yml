@@ -1,0 +1,7 @@
+parameters:
+#    ws_coraltec.example.class: WS\CoraltecBundle\Example
+
+services:
+#    ws_coraltec.example:
+#        class: %ws_coraltec.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

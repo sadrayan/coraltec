@@ -1,0 +1,7 @@
+ws_coraltec_homepage:
+    path:     /
+    defaults: { _controller: WSCoraltecBundle:Default:index }
+
+defalt_contact:
+    path:     /contact
+    defaults: { _controller: WSCoraltecBundle:Default:contact }
