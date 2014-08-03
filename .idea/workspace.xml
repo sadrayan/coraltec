@@ -2,17 +2,173 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00bf73c0-4a46-4b71-94a3-180b1fe9fc43" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Default/about.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Default/service.html.twig" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views/content.html.twig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views/portfolio.html.twig" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WS/CoraltecBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/WS/CoraltecBundle/Controller/DefaultController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/about.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/about.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/contact.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/contact.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/template/header.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/template/header.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/main/about.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/main/contact.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/main/services.html.twig" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views/about.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views/contact.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views/index.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views/services.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/about.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/bootstrap/img/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/bootstrap/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/bootstrap/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/css/flexslider.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/font-awesome/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/font-awesome/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/font-awesome/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/font-awesome/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/ico/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/ico/apple-touch-icon-114-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/ico/apple-touch-icon-144-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/ico/apple-touch-icon-57-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/ico/apple-touch-icon-72-precomposed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/ico/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/line.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/line1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/pattern.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/portfolio/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/portfolio/work1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/portfolio/work10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/portfolio/work11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/portfolio/work12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/portfolio/work2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/portfolio/work3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/portfolio/work4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/portfolio/work5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/portfolio/work6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/portfolio/work7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/portfolio/work8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/portfolio/work9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/slider-nav.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/slider/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/slider/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/slider/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/slider/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/slider/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/slider/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/slider/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/social-icons/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/social-icons/behance.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/social-icons/dribbble.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/social-icons/email.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/social-icons/facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/social-icons/flickr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/social-icons/forrst.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/social-icons/github.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/social-icons/googleplus.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/social-icons/linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/social-icons/pinterest.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/social-icons/rss.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/social-icons/skype.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/social-icons/tumblr.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/social-icons/twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/social-icons/vimeo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/social-icons/youtube.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/team/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/team/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/team/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/team/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/team/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/testimonials/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/testimonials/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/testimonials/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/img/testimonials/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/js/jflickrfeed.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/js/jquery-1.8.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/js/jquery.flexslider.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/js/jquery.quicksand.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/js/jquery.tweet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/js/jquery.ui.map.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/js/scripts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/css/prettyPhoto.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/dark_rounded/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/dark_rounded/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/dark_rounded/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/dark_rounded/contentPattern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/dark_rounded/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/dark_rounded/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/dark_rounded/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/dark_square/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/dark_square/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/dark_square/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/dark_square/contentPattern.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/dark_square/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/dark_square/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/dark_square/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/default/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/default/default_thumb.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/default/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/default/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/default/sprite_next.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/default/sprite_prev.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/default/sprite_x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/default/sprite_y.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/facebook/Thumbs.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/facebook/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/facebook/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/facebook/contentPatternBottom.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/facebook/contentPatternLeft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/facebook/contentPatternRight.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/facebook/contentPatternTop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/facebook/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/facebook/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/facebook/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/light_rounded/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/light_rounded/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/light_rounded/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/light_rounded/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/light_rounded/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/light_square/btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/light_square/btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/light_square/default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/light_square/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/images/prettyPhoto/light_square/sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/prettyPhoto/js/jquery.prettyPhoto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/sendmail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/contact.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/index.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/portfolio.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/services.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/template/footer.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/template/head.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/template/header.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/template/js.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/template/service.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/template/siteDesc.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/template/slider.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/template/testimonial.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/base.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Resources/views_old/content.html.twig" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/views/template/footer.html.twig" afterPath="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/main/template/footer.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/views/template/head.html.twig" afterPath="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/main/template/head.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/views/template/header.html.twig" afterPath="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/main/template/header.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/views/template/js.html.twig" afterPath="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/main/template/js.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/views/template/service.html.twig" afterPath="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/main/template/service.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/views/template/siteDesc.html.twig" afterPath="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/main/template/siteDesc.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/views/template/slider.html.twig" afterPath="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/main/template/slider.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/views/template/testimonial.html.twig" afterPath="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/main/template/testimonial.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/views_old/andia-agency/base.html.twig" afterPath="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/main/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Default/about.html.twig" afterPath="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Default/about.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/autoload.php" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Contact/index.html.twig" afterPath="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Contact/index.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/services.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/services.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Default/service.html.twig" afterPath="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Default/service.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="coraltec.iws" />
@@ -36,28 +192,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="contact.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/contact.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="14" selection-start="2146" selection-end="2146" vertical-scroll-proportion="-29.625" vertical-offset="189" max-vertical-offset="1230">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views_old/base.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="20" selection-start="2035" selection-end="2065" vertical-scroll-proportion="-15.25" vertical-offset="384" max-vertical-offset="1200">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DefaultController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="0" selection-start="2086" selection-end="2086" vertical-scroll-proportion="-16.083334" vertical-offset="604" max-vertical-offset="1110">
+            <state line="67" column="48" selection-start="2034" selection-end="2052" vertical-scroll-proportion="-14.833333" vertical-offset="604" max-vertical-offset="1110">
               <folding />
             </state>
           </provider>
@@ -66,16 +204,61 @@
       <file leaf-file-name="service.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Default/service.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="105">
+            <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="105">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="services.html.twig" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/services.html.twig">
+      <file leaf-file-name="base.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/main/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="9" selection-start="3471" selection-end="3471" vertical-scroll-proportion="1.4134762" vertical-offset="217" max-vertical-offset="2040">
+            <state line="50" column="50" selection-start="1722" selection-end="1722" vertical-scroll-proportion="-6.7083335" vertical-offset="589" max-vertical-offset="1110">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/main/about.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="142" column="46" selection-start="6356" selection-end="6386" vertical-scroll-proportion="-1.5833334" vertical-offset="1997" max-vertical-offset="2475">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/main/contact.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="69" column="50" selection-start="2554" selection-end="2584" vertical-scroll-proportion="-2.452381" vertical-offset="829" max-vertical-offset="1230">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/main/services.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="128" column="7" selection-start="6853" selection-end="6853" vertical-scroll-proportion="-11.226191" vertical-offset="977" max-vertical-offset="2040">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/main/template/js.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="48" selection-start="367" selection-end="402" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="240">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Contact/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="-1.4642082" vertical-offset="675" max-vertical-offset="1335">
               <folding />
             </state>
           </provider>
@@ -84,43 +267,16 @@
       <file leaf-file-name="about.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Default/about.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="105">
+            <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="105">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routing.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/config/routing.yml">
+      <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Default/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="22" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/template/header.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="29" selection-start="1335" selection-end="1335" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="585">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/about.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="153" column="23" selection-start="6384" selection-end="6750" vertical-scroll-proportion="-22.75" vertical-offset="1749" max-vertical-offset="2475">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1409" selection-end="1526" vertical-scroll-proportion="-13.125" vertical-offset="360" max-vertical-offset="1110">
+            <state line="0" column="34" selection-start="12" selection-end="34" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1080">
               <folding />
             </state>
           </provider>
@@ -144,7 +300,6 @@
         <option value="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Mail/contact.html.twig" />
         <option value="$PROJECT_DIR$/src/WS/CoraltecBundle/Entity/Contact.php" />
         <option value="$PROJECT_DIR$/src/WS/CoraltecBundle/Form/Type/ContactType.php" />
-        <option value="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/andia-agency/headTemplate.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/andia-agency/jsTemplate.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/andia-agency/footerTemplate.html.twig" />
@@ -166,14 +321,19 @@
         <option value="$PROJECT_DIR$/app/Resources/views/index.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/content.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/contact.html.twig" />
-        <option value="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Contact/index.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/template/header.html.twig" />
-        <option value="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Default/about.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/about.html.twig" />
         <option value="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/WS/CoraltecBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Default/service.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/services.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/template/header.html.twig" />
+        <option value="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Default/index.html.twig" />
+        <option value="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Default/about.html.twig" />
+        <option value="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Default/service.html.twig" />
+        <option value="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/main/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/main/about.html.twig" />
+        <option value="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/main/contact.html.twig" />
+        <option value="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/main/services.html.twig" />
+        <option value="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Contact/index.html.twig" />
       </list>
     </option>
   </component>
@@ -281,92 +441,6 @@
               <option name="myItemId" value="bundles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wscoraltec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coraltec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coraltec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bundles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wscoraltec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="font-awesome" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coraltec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coraltec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bundles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wscoraltec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coraltec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coraltec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bundles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -431,6 +505,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coraltec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coraltec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CoraltecBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -525,6 +633,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coraltec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="coraltec" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CoraltecBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -671,58 +809,6 @@
               <option name="myItemId" value="Resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views_old" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coraltec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coraltec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coraltec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="coraltec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -734,13 +820,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/public/main" />
       <recent name="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Default" />
       <recent name="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/public" />
       <recent name="$PROJECT_DIR$/app/Resources" />
       <recent name="$PROJECT_DIR$/app/Resources/views" />
-      <recent name="$PROJECT_DIR$/app/Resources/views/andia-agency" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views" />
+      <recent name="$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/public/main" />
       <recent name="$PROJECT_DIR$/app/Resources/views" />
       <recent name="$PROJECT_DIR$/app/Resources/views/andia-agency/template" />
     </key>
@@ -792,7 +880,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32919255" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -830,13 +918,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Controller/OrderController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="52" selection-start="272" selection-end="272" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="330">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Order/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="0" selection-start="550" selection-end="550" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="735">
@@ -885,53 +966,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/template/siteDesc.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="6" selection-start="211" selection-end="211" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="135">
-          <folding>
-            <marker date="1407041267100" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/template/slider.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="86" selection-start="816" selection-end="816" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="35" selection-start="909" selection-end="973" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="1110">
-          <folding>
-            <element signature="e#370#417#0" expanded="true" />
-            <element signature="e#485#533#0" expanded="true" />
-            <element signature="e#741#850#0" expanded="true" />
-            <element signature="e#1597#1650#0" expanded="true" />
-            <element signature="e#1744#1798#0" expanded="true" />
-            <element signature="e#1955#2012#0" expanded="true" />
-            <element signature="e#2118#2175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views_old/andia-agency/assets/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2085">
-          <folding>
-            <marker date="1356668964000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1356668964000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1356668964000" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/wscoraltec/assets/img/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/public/assets/css/flexslider.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
@@ -957,76 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/template/testimonial.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="328" selection-end="328" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/wscoraltec/assets/css/flexslider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="0" selection-start="3841" selection-end="3841" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="1230">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/wscoraltec/assets/bootstrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="83385">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/wscoraltec/assets/css/font-awesome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="22" selection-start="1648" selection-end="1648" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="4635">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/template/js.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="24" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="726">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/template/service.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="29" selection-start="1308" selection-end="1308" vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/template/footer.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="39" selection-start="1424" selection-end="1424" vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="570">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/template/head.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="20" selection-start="1392" selection-end="1392" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/bundles/wscoraltec/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="1" selection-start="907" selection-end="907" vertical-scroll-proportion="0.57419354" vertical-offset="305" max-vertical-offset="17205">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="2475" selection-end="2598" vertical-scroll-proportion="0.42682928" vertical-offset="540" max-vertical-offset="4545">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/public/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="716" column="0" selection-start="16816" selection-end="16816" vertical-scroll-proportion="0.33290324" vertical-offset="10482" max-vertical-offset="17205">
@@ -1034,86 +998,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views_old/content.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="16" selection-start="34" selection-end="42" vertical-scroll-proportion="0.01997337" vertical-offset="0" max-vertical-offset="751">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Contact/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="32" selection-start="461" selection-end="461" vertical-scroll-proportion="0.33954728" vertical-offset="0" max-vertical-offset="1335">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views_old/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="20" selection-start="2035" selection-end="2065" vertical-scroll-proportion="-15.25" vertical-offset="384" max-vertical-offset="1200">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Default/about.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="34" selection-end="34" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="105">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/contact.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="14" selection-start="2146" selection-end="2146" vertical-scroll-proportion="-29.625" vertical-offset="189" max-vertical-offset="1230">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1409" selection-end="1526" vertical-scroll-proportion="-13.125" vertical-offset="360" max-vertical-offset="1110">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="22" selection-start="340" selection-end="340" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding>
+            <marker date="1407080592578" expanded="true" signature="-1:-1" placeholder="defalt_about:" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Controller/OrderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="330">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="2086" selection-end="2086" vertical-scroll-proportion="-16.083334" vertical-offset="604" max-vertical-offset="1110">
+        <state line="67" column="48" selection-start="2034" selection-end="2052" vertical-scroll-proportion="-14.833333" vertical-offset="604" max-vertical-offset="1110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/main/template/js.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="48" selection-start="367" selection-end="402" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Default/about.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="105">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Default/service.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="105">
+        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="461">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/template/header.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="29" selection-start="1335" selection-end="1335" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="585">
+        <state line="0" column="34" selection-start="12" selection-end="34" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1080">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/about.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/main/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="23" selection-start="6384" selection-end="6750" vertical-scroll-proportion="-22.75" vertical-offset="1749" max-vertical-offset="2475">
+        <state line="50" column="50" selection-start="1722" selection-end="1722" vertical-scroll-proportion="-6.7083335" vertical-offset="589" max-vertical-offset="1110">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/services.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/main/about.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="9" selection-start="3471" selection-end="3471" vertical-scroll-proportion="1.4134762" vertical-offset="217" max-vertical-offset="2040">
+        <state line="142" column="46" selection-start="6356" selection-end="6386" vertical-scroll-proportion="-1.5833334" vertical-offset="1997" max-vertical-offset="2475">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/main/contact.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="50" selection-start="2554" selection-end="2584" vertical-scroll-proportion="-2.452381" vertical-offset="829" max-vertical-offset="1230">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/main/services.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="7" selection-start="6853" selection-end="6853" vertical-scroll-proportion="-11.226191" vertical-offset="977" max-vertical-offset="2040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WS/CoraltecBundle/Resources/views/Contact/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="-1.4642082" vertical-offset="675" max-vertical-offset="1335">
           <folding />
         </state>
       </provider>
