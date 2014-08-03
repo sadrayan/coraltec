@@ -60,5 +60,12 @@ class DefaultController extends Controller
         ));
     }
 
+    public function aboutAction(){
+        return $this->render('WSCoraltecBundle:Default:about.html.twig');
+    }
+
+    public function serviceAction(){
+        return $this->render('WSCoraltecBundle:Default:service.html.twig');
+    }
 
 }

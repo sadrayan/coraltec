@@ -5,3 +5,11 @@ ws_coraltec_homepage:
 defalt_contact:
     path:     /contact
     defaults: { _controller: WSCoraltecBundle:Default:contact }
+
+defalt_about:
+    path:     /about
+    defaults: { _controller: WSCoraltecBundle:Default:about }
+
+defalt_servic:
+    path:     /service
+    defaults: { _controller: WSCoraltecBundle:Default:service }
